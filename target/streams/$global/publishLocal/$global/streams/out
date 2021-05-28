@@ -1,0 +1,10 @@
+[info] :: delivering :: com.tellidium#nixie_2.12;1.0-SNAPSHOT :: 1.0-SNAPSHOT :: integration :: Mon May 25 17:29:19 WAT 2020
+[debug] 	options = status=integration pubdate=Mon May 25 17:29:19 WAT 2020 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null
+[info] 	delivering ivy file to C:\Users\lenovo\Downloads\Nixie\target\scala-2.12\ivy-1.0-SNAPSHOT.xml
+[debug] 	deliver done (86ms)
+[debug] local do not support transaction. ivy pattern does not use revision as a directory
+[info] 	published nixie_2.12 to C:\Users\lenovo\.ivy2\local\com.tellidium\nixie_2.12\1.0-SNAPSHOT\poms\nixie_2.12.pom
+[info] 	published nixie_2.12 to C:\Users\lenovo\.ivy2\local\com.tellidium\nixie_2.12\1.0-SNAPSHOT\jars\nixie_2.12.jar
+[info] 	published nixie_2.12 to C:\Users\lenovo\.ivy2\local\com.tellidium\nixie_2.12\1.0-SNAPSHOT\srcs\nixie_2.12-sources.jar
+[info] 	published nixie_2.12 to C:\Users\lenovo\.ivy2\local\com.tellidium\nixie_2.12\1.0-SNAPSHOT\docs\nixie_2.12-javadoc.jar
+[info] 	published ivy to C:\Users\lenovo\.ivy2\local\com.tellidium\nixie_2.12\1.0-SNAPSHOT\ivys\ivy.xml

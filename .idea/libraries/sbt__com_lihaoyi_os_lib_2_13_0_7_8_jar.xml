@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.lihaoyi:os-lib_2.13:0.7.8:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.lihaoyi/os-lib_2.13/jars/os-lib_2.13-0.7.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.lihaoyi/os-lib_2.13/srcs/os-lib_2.13-0.7.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

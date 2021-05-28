@@ -1,0 +1,13 @@
+[info] Packaging C:\Users\lenovo\Downloads\Nixie\target\scala-2.12\nixie_2.12-1.0-SNAPSHOT-sources.jar ...
+[debug] Input file mappings:
+[debug] 	node\brain\BasicConversation.scala
+[debug] 	  C:\Users\lenovo\Downloads\Nixie\src\main\scala\node\brain\BasicConversation.scala
+[debug] 	node\brain\Node.scala
+[debug] 	  C:\Users\lenovo\Downloads\Nixie\src\main\scala\node\brain\Node.scala
+[debug] 	Nixie.scala
+[debug] 	  C:\Users\lenovo\Downloads\Nixie\src\main\scala\Nixie.scala
+[debug] 	node\brain\CommandLine.scala
+[debug] 	  C:\Users\lenovo\Downloads\Nixie\src\main\scala\node\brain\CommandLine.scala
+[debug] 	node\brain\BrainActor.scala
+[debug] 	  C:\Users\lenovo\Downloads\Nixie\src\main\scala\node\brain\BrainActor.scala
+[info] Done packaging.

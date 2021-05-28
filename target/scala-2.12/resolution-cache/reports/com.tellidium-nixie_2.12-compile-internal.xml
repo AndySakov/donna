@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.tellidium"
+		module="nixie_2.12"
+		revision="1.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20201116194648"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.8" status="release" pubdate="20181204111524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2863" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.9.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3645095" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-scala_2.12">
+			<revision name="2.4.0" status="release" pubdate="20200429203455" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="4687" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-scala_2.12\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-scala_2.12/2.4.0/smile-scala_2.12-2.4.0.pom"/>
+				<caller organisation="com.tellidium" name="nixie_2.12" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="smile-scala_2.12" type="jar" ext="jar" status="no" details="" size="1123701" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-scala_2.12\jars\smile-scala_2.12-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-scala_2.12/2.4.0/smile-scala_2.12-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.xstream" name="xstream">
+			<revision name="1.4.12" status="release" pubdate="20200412181810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD-3-Clause" url="http://x-stream.github.io/license.html"/>
+				<metadata-artifact status="no" details="" size="22506" time="0" location="C:\Users\lenovo\.ivy2\cache\com.thoughtworks.xstream\xstream\ivy-1.4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.12/xstream-1.4.12.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="1.4.12" rev-constraint-default="1.4.12" rev-constraint-dynamic="1.4.12" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="xstream" type="jar" ext="jar" status="no" details="" size="622711" time="0" location="C:\Users\lenovo\.ivy2\cache\com.thoughtworks.xstream\xstream\jars\xstream-1.4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.12/xstream-1.4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xpp3" name="xpp3_min">
+			<revision name="1.1.4c" status="release" pubdate="20071201100642" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Indiana University Extreme! Lab Software License, vesion 1.1.1" url="http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt"/>
+				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain"/>
+				<metadata-artifact status="no" details="" size="2866" time="0" location="C:\Users\lenovo\.ivy2\cache\xpp3\xpp3_min\ivy-1.1.4c.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom"/>
+				<caller organisation="com.thoughtworks.xstream" name="xstream" conf="compile, runtime" rev="1.1.4c" rev-constraint-default="1.1.4c" rev-constraint-dynamic="1.1.4c" callerrev="1.4.12"/>
+				<artifacts>
+					<artifact name="xpp3_min" type="jar" ext="jar" status="no" details="" size="24956" time="0" location="C:\Users\lenovo\.ivy2\cache\xpp3\xpp3_min\jars\xpp3_min-1.1.4c.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xmlpull" name="xmlpull">
+			<revision name="1.1.3.1" status="release" pubdate="20070320011831" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.xmlpull.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Public Domain" url="http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2457" time="0" location="C:\Users\lenovo\.ivy2\cache\xmlpull\xmlpull\ivy-1.1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom"/>
+				<caller organisation="com.thoughtworks.xstream" name="xstream" conf="compile, runtime" rev="1.1.3.1" rev-constraint-default="1.1.3.1" rev-constraint-dynamic="1.1.3.1" callerrev="1.4.12"/>
+				<artifacts>
+					<artifact name="xmlpull" type="jar" ext="jar" status="no" details="" size="7188" time="0" location="C:\Users\lenovo\.ivy2\cache\xmlpull\xmlpull\jars\xmlpull-1.1.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.3.0" status="release" pubdate="20200316190015" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="https://scala.github.io/scala-xml/api/1.3.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3472" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="557557" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-json_2.12">
+			<revision name="2.4.0" status="release" pubdate="20200429203525" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3471" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-json_2.12\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-json_2.12/2.4.0/smile-json_2.12-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-json_2.12" type="jar" ext="jar" status="no" details="" size="245315" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-json_2.12\jars\smile-json_2.12-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-json_2.12/2.4.0/smile-json_2.12-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.9.2" status="release" pubdate="20181213191011" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3396" time="0" location="C:\Users\lenovo\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\ivy-3.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.2/scala-logging_2.12-3.9.2.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-json_2.12" conf="compile, runtime" rev="3.9.2" rev-constraint-default="3.9.2" rev-constraint-dynamic="3.9.2" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="3.9.2" rev-constraint-default="3.9.2" rev-constraint-dynamic="3.9.2" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="bundle" ext="jar" status="no" details="" size="55101" time="0" location="C:\Users\lenovo\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\bundles\scala-logging_2.12-3.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.2/scala-logging_2.12-3.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-plot">
+			<revision name="2.4.0" status="release" pubdate="20200429203333" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3313" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-plot\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-plot/2.4.0/smile-plot-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-plot" type="jar" ext="jar" status="no" details="" size="280958" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-plot\jars\smile-plot-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-plot/2.4.0/smile-plot-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.swinglabs" name="swingx">
+			<revision name="1.6.1" status="release" pubdate="20100724113104" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.swinglabs.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.html"/>
+				<metadata-artifact status="no" details="" size="3148" time="0" location="C:\Users\lenovo\.ivy2\cache\org.swinglabs\swingx\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/swinglabs/swingx/1.6.1/swingx-1.6.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-plot" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="swingx" type="jar" ext="jar" status="no" details="" size="1389926" time="0" location="C:\Users\lenovo\.ivy2\cache\org.swinglabs\swingx\jars\swingx-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/swinglabs/swingx/1.6.1/swingx-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.swinglabs" name="swing-worker">
+			<revision name="1.1" status="release" pubdate="20071116045645" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://swingworker.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.html"/>
+				<metadata-artifact status="no" details="" size="2547" time="0" location="C:\Users\lenovo\.ivy2\cache\org.swinglabs\swing-worker\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/swinglabs/swing-worker/1.1/swing-worker-1.1.pom"/>
+				<caller organisation="org.swinglabs" name="swingx" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.6.1"/>
+				<artifacts>
+					<artifact name="swing-worker" type="jar" ext="jar" status="no" details="" size="12591" time="0" location="C:\Users\lenovo\.ivy2\cache\org.swinglabs\swing-worker\jars\swing-worker-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/swinglabs/swing-worker/1.1/swing-worker-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jhlabs" name="filters">
+			<revision name="2.0.235" status="release" pubdate="20061120235950" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jhlabs.com/ip/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2622" time="0" location="C:\Users\lenovo\.ivy2\cache\com.jhlabs\filters\ivy-2.0.235.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jhlabs/filters/2.0.235/filters-2.0.235.pom"/>
+				<caller organisation="org.swinglabs" name="swingx" conf="compile, runtime" rev="2.0.235" rev-constraint-default="2.0.235" rev-constraint-dynamic="2.0.235" callerrev="1.6.1"/>
+				<artifacts>
+					<artifact name="filters" type="jar" ext="jar" status="no" details="" size="340318" time="0" location="C:\Users\lenovo\.ivy2\cache\com.jhlabs\filters\jars\filters-2.0.235.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jhlabs/filters/2.0.235/filters-2.0.235.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-nlp">
+			<revision name="2.4.0" status="release" pubdate="20200429203336" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3171" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-nlp\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-nlp/2.4.0/smile-nlp-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-nlp" type="jar" ext="jar" status="no" details="" size="2442771" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-nlp\jars\smile-nlp-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-nlp/2.4.0/smile-nlp-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-interpolation">
+			<revision name="2.4.0" status="release" pubdate="20200429203305" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-interpolation\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-interpolation/2.4.0/smile-interpolation-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-interpolation" type="jar" ext="jar" status="no" details="" size="25958" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-interpolation\jars\smile-interpolation-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-interpolation/2.4.0/smile-interpolation-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-core">
+			<revision name="2.4.0" status="release" pubdate="20200429203315" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3748" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-core\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-core/2.4.0/smile-core-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-plot" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-nlp" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-core" type="jar" ext="jar" status="no" details="" size="579775" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-core\jars\smile-core-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-core/2.4.0/smile-core-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-io">
+			<revision name="2.4.0" status="release" pubdate="20200429203317" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="4688" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-io\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-io/2.4.0/smile-io-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-io" type="jar" ext="jar" status="no" details="" size="61757" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-io\jars\smile-io-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-io/2.4.0/smile-io-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-csv">
+			<revision name="1.8" status="release" pubdate="20200202021930" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://commons.apache.org/proper/commons-csv/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="17077" time="0" location="C:\Users\lenovo\.ivy2\cache\org.apache.commons\commons-csv\ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.8/commons-csv-1.8.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-io" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="commons-csv" type="jar" ext="jar" status="no" details="" size="49086" time="0" location="C:\Users\lenovo\.ivy2\cache\org.apache.commons\commons-csv\jars\commons-csv-1.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.8/commons-csv-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.epam" name="parso">
+			<revision name="2.0.11" status="release" pubdate="20190325120340" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/epam/parso" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License v2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4159" time="0" location="C:\Users\lenovo\.ivy2\cache\com.epam\parso\ivy-2.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/epam/parso/2.0.11/parso-2.0.11.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-io" conf="compile, runtime" rev="2.0.11" rev-constraint-default="2.0.11" rev-constraint-dynamic="2.0.11" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="parso" type="jar" ext="jar" status="no" details="" size="56707" time="0" location="C:\Users\lenovo\.ivy2\cache\com.epam\parso\jars\parso-2.0.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/epam/parso/2.0.11/parso-2.0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-netlib">
+			<revision name="2.4.0" status="release" pubdate="20200429203235" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="4978" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-netlib\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-netlib/2.4.0/smile-netlib-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-core" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-netlib" type="jar" ext="jar" status="no" details="" size="16610" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-netlib\jars\smile-netlib-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-netlib/2.4.0/smile-netlib-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126125411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="4941" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\core\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="2.4.0"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="core" type="jar" ext="jar" status="no" details="" size="164422" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\core\jars\core-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.1.2"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="2.4.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131012003120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8035" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-armhf\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-armhf" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="310891" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-armhf\jars\netlib-native_system-linux-armhf-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012002927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8037" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="458605" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-x86_64\jars\netlib-native_system-linux-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011234035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7614" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-osx-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="netlib-native_system-osx-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="553993" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-osx-x86_64\jars\netlib-native_system-osx-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011234207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7608" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-win-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="637428" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-win-x86_64\jars\netlib-native_system-win-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_system-java">
+			<revision name="1.1" status="release" pubdate="20131011233956" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7751" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\native_system-java\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.4.0"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="native_system-java" type="jar" ext="jar" status="no" details="" size="54509" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil.netlib\native_system-java\jars\native_system-java-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.f2j" name="arpack_combined_all">
+			<revision name="0.1" status="release" pubdate="20130709052740" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://f2j.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2597" time="0" location="C:\Users\lenovo\.ivy2\cache\net.sourceforge.f2j\arpack_combined_all\ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="arpack_combined_all" type="jar" ext="jar" status="no" details="" size="1194003" time="0" location="C:\Users\lenovo\.ivy2\cache\net.sourceforge.f2j\arpack_combined_all\jars\arpack_combined_all-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil" name="jniloader">
+			<revision name="1.1" status="release" pubdate="20131011213947" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/fommil/jniloader" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3356" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil\jniloader\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.4.0"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="jniloader" type="jar" ext="jar" status="no" details="" size="8685" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.fommil\jniloader\jars\jniloader-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-graph">
+			<revision name="2.4.0" status="release" pubdate="20200429203237" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3177" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-graph\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-graph/2.4.0/smile-graph-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-core" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-graph" type="jar" ext="jar" status="no" details="" size="14952" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-graph\jars\smile-graph-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-graph/2.4.0/smile-graph-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-data">
+			<revision name="2.4.0" status="release" pubdate="20200429203247" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3293" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-data\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-data/2.4.0/smile-data-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-io" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-core" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-data" type="jar" ext="jar" status="no" details="" size="196955" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-data\jars\smile-data-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-data/2.4.0/smile-data-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-math">
+			<revision name="2.4.0" status="release" pubdate="20200429203244" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="GNU Lesser General Public License, Version 3" url="https://opensource.org/licenses/LGPL-3.0"/>
+				<metadata-artifact status="no" details="" size="3164" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-math\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-math/2.4.0/smile-math-2.4.0.pom"/>
+				<caller organisation="com.github.haifengl" name="smile-core" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-data" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-graph" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-netlib" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-interpolation" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="smile-math" type="jar" ext="jar" status="no" details="" size="356013" time="0" location="C:\Users\lenovo\.ivy2\cache\com.github.haifengl\smile-math\jars\smile-math-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-math/2.4.0/smile-math-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.30" status="release" pubdate="20191216220337" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5400" time="0" location="C:\Users\lenovo\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.30.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.9.2"/>
+				<caller organisation="com.epam" name="parso" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.0.11"/>
+				<caller organisation="com.github.haifengl" name="smile-math" conf="compile, runtime" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.30" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41472" time="0" location="C:\Users\lenovo\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.30.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.30"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.9.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.30"/>
+				<caller organisation="com.epam" name="parso" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.0.11"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.6.1" status="release" pubdate="20191206113500" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.1" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3402" time="0" location="C:\Users\lenovo\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.1/akka-actor_2.12-2.6.1.pom"/>
+				<caller organisation="com.tellidium" name="nixie_2.12" conf="compile-internal, compile, provided, optional" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="jar" ext="jar" status="no" details="" size="3534605" time="0" location="C:\Users\lenovo\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.1/akka-actor_2.12-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161029231227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3072" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.6.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="bundle" ext="jar" status="no" details="" size="1165728" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\bundles\scala-java8-compat_2.12-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.4.0" status="release" pubdate="20191012082341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="C:\Users\lenovo\.ivy2\cache\com.typesafe\config\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.6.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="294174" time="0" location="C:\Users\lenovo\.ivy2\cache\com.typesafe\config\bundles\config-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204111556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2688" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.6.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.12.8"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.9.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.8.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.3.0"/>
+				<caller organisation="com.github.haifengl" name="smile-json_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.4.0"/>
+				<caller organisation="com.github.haifengl" name="smile-scala_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.4.0"/>
+				<caller organisation="com.tellidium" name="nixie_2.12" conf="compile-internal, compile, provided, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="C:\Users\lenovo\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
