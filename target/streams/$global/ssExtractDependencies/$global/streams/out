@@ -1,4 +1,4 @@
-[error] sbt.librarymanagement.ResolveException: unresolved dependency: com.tellidium#hex_2.12;0.1: public: unable to get resource for com/tellidium#hex_2.12;0.1: res=https://repo1.maven.org/maven2/com/tellidium/hex_2.12/0.1/hex_2.12-0.1.pom: java.net.UnknownHostException: repo1.maven.org
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.akka#akka-streamed_2.13;2.6.14: not found
 [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
 [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
 [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
@@ -46,3 +46,4 @@
 [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 [error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.akka#akka-streamed_2.13;2.6.14: not found
