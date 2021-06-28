@@ -14,46 +14,92 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:cask-util_2.13:0.7.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:cask_2.13:0.7.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:castor_2.13:0.1.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:fansi_2.13:0.2.9:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:geny_2.13:0.6.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:os-lib_2.13:0.7.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:pprint_2.13:0.5.9:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.beachape:enumeratum-macros_2.13:1.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.beachape:enumeratum_2.13:1.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.chuusai:shapeless_2.13:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.colofabrix.scala:figlet4s-core_2.13:0.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.nscala-time:nscala-time_2.13:2.28.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.pathikrit:better-files_2.13:3.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.guava:guava:14.0.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.ibm.icu:icu4j:54.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:fansi_2.13:0.2.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:geny_2.13:0.6.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.lihaoyi:requests_2.13:0.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:sourcecode_2.13:0.2.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:ujson_2.13:1.3.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:upack_2.13:1.3.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:upickle-core_2.13:1.3.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:upickle-implicits_2.13:1.3.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lihaoyi:upickle_2.13:1.3.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:sourcecode_2.13:0.2.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.twmacinta:fast-md5:2.7.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor-typed_2.13:2.6.14:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor_2.13:2.6.14:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-slf4j_2.13:2.6.14:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe:config:1.4.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.undertow:undertow-core:2.0.13.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.java-websocket:Java-WebSocket:1.4.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.jboss.logging:jboss-logging:3.3.2.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.jboss.xnio:xnio-api:3.3.8.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.jboss.xnio:xnio-nio:3.3.8.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-collections:commons-collections:3.2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-io:commons-io:2.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-lang:commons-lang:2.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.lt.jtok:jtok-core:1.9.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:emotionml-checker-java:1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:marytts-common:5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:marytts-lang-en:5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:marytts-runtime:5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:marytts-signalproc:5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:voice-dfki-poppy-hsmm:5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: de.dfki.mary:voice-dfki-spike-hsmm:5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:izumi-reflect-thirdparty-boopickle-shaded_2.13:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:izumi-reflect_2.13:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio-stacktracer_2.13:1.0.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio_2.13:1.0.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: gov.nist.math:Jampack:1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: gov.nist.math:jama:1.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-core_2.13:0.12.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-generic_2.13:0.12.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.13:0.12.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.13:0.12.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-parser_2.13:0.12.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: joda-time:joda-time:2.10.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: log4j:log4j:1.2.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.sf.jwordnet:jwnl:1.3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.sf.trove4j:trove4j:2.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpcore-nio:4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpcore:4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.opennlp:opennlp-maxent:3.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.opennlp:opennlp-tools:1.5.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.codehaus.groovy:groovy-all:2.4.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.hsqldb:hsqldb:2.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.joda:joda-convert:2.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-base:15.0.1:linux:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-controls:15.0.1:linux:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-fxml:15.0.1:linux:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-graphics:15.0.1:linux:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-media:15.0.1:linux:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-swing:15.0.1:linux:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-web:15.0.1:linux:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-java8-compat_2.13:0.9.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.13:1.2.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.1:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalafx:scalafx_2.13:15.0.1-R21:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-compatible:3.1.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.13:3.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.30:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-log4j12:1.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.swinglabs:swing-layout:1.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.13:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect_2.13:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.13:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:jawn-parser_2.13:0.14.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.1:jar" level="project" />
     <orderEntry type="module-library">
-      <library name="sbt: unmanaged-jars">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/hex_2.12.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/log4j-1.2.17-sources.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/log4j-1.2.17.jar!/" />
-        </CLASSES>
+      <library name="sbt: unmanaged-sources-and-docs">
+        <CLASSES />
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-base/srcs/javafx-base-15.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-controls/srcs/javafx-controls-15.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-fxml/srcs/javafx-fxml-15.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-graphics/srcs/javafx-graphics-15.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-media/srcs/javafx-media-15.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-swing/srcs/javafx-swing-15.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjfx/javafx-web/srcs/javafx-web-15.0.1-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

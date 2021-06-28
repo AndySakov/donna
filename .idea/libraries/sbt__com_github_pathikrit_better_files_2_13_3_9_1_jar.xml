@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.pathikrit:better-files_2.13:3.9.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.pathikrit/better-files_2.13/jars/better-files_2.13-3.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.pathikrit/better-files_2.13/srcs/better-files_2.13-3.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

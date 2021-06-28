@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalafx:scalafx_2.13:15.0.1-R21:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalafx/scalafx_2.13/jars/scalafx_2.13-15.0.1-R21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalafx/scalafx_2.13/srcs/scalafx_2.13-15.0.1-R21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

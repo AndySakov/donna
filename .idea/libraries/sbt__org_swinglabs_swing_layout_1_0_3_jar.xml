@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.swinglabs:swing-layout:1.0.3:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.swinglabs/swing-layout/jars/swing-layout-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.swinglabs/swing-layout/srcs/swing-layout-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
